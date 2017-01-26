@@ -36,7 +36,7 @@ import com.android.mms.ui.MessagingPreferenceActivity;
 
 public class MmsConfig {
     private static final String TAG = LogTag.TAG;
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final boolean LOCAL_LOGV = false;
 
     private static final String DEFAULT_HTTP_KEY_X_WAP_PROFILE = "x-wap-profile";

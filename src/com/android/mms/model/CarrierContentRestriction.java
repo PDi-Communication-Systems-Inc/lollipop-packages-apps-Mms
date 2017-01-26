@@ -33,7 +33,7 @@ public class CarrierContentRestriction implements ContentRestriction {
     private static final ArrayList<String> sSupportedImageTypes;
     private static final ArrayList<String> sSupportedAudioTypes;
     private static final ArrayList<String> sSupportedVideoTypes;
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     static {
         sSupportedImageTypes = ContentType.getImageTypes();
